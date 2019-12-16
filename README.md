@@ -6,4 +6,4 @@ The official documentation didn't help me so much, so this is my new "Wiki"
 
 ## First steps in Akeneo
 
-* [Create a empty Module]()
+* [Create an empty Module](https://github.com/DanielRomanMartinez/Akeneo-Labs/tree/master/Create%20a%20empty%20Module)
