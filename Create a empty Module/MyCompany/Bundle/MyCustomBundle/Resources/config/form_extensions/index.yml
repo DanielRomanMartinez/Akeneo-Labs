@@ -1,0 +1,5 @@
+extensions:
+  my-company-my-bundle-index:
+    module: pim/common/simple-view
+    config:
+      template: mycompany/mybundle/template/index

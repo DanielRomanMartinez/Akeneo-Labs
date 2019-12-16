@@ -1,0 +1,13 @@
+config:
+  paths:
+    # JS
+    mycompany/mybundle: mycompanymycustom/js/my-first-js
+
+    # HTML
+    mycompany/mybundle/template/index: mycompanymycustom/templates/index.html
+
+  config:
+    pim/controller-registry:
+      controllers: # Registering a new controller for this view
+        my_company_my_custom_bundle_index: # Must be the same name that routing
+          module: mycompany/mybundle

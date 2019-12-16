@@ -1,0 +1,3 @@
+my_company_my_custom_bundle_index:
+  path: /my-custom-route
+  methods: [GET]
