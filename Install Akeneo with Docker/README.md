@@ -29,7 +29,10 @@ SET DOCKER_PORT_HTTP=80
 
 ## Take Remote Images
 
-Then you take remote pictures of the docker using the command:
+Enter inside of akeneo folder. And then take remote pictures of the docker using the command:
+
+
+![akeneo_folder.png](https://i.imgur.com/rzS5kU1.png)
 
 ```
 docker-compose pull
@@ -48,6 +51,11 @@ Edit the file and change the parameter **index_hosts**
 index_hosts: 'elasticsearch: 9200'
 ```
 
+And **database_host**
+
+```
+database_host: mysql
+```
 ## Start Container
 
 Now you can start your containers:
@@ -69,6 +77,6 @@ bin/docker/pim-initialize.sh
 
 And you will see Akeneo running
 
-![first-module.png](https://i.imgur.com/RpilyuN.png)
+![akeneo-login.png](https://i.imgur.com/RpilyuN.png)
 
 The credentials are: admin / admin
