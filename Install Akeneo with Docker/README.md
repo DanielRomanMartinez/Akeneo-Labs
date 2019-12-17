@@ -29,10 +29,11 @@ SET DOCKER_PORT_HTTP=80
 
 ## Take Remote Images
 
-Enter inside of akeneo folder. And then take remote pictures of the docker using the command:
-
+Enter inside of akeneo folder. 
 
 ![akeneo_folder.png](https://i.imgur.com/rzS5kU1.png)
+
+And then take remote pictures of the docker using the command:
 
 ```
 docker-compose pull
