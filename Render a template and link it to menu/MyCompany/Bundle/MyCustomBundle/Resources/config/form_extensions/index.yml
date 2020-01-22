@@ -1,0 +1,11 @@
+# MyCompany/Bundle/MyCustomBundle/Resources/config/form_extensions/index.yml
+extensions:
+    my-company-my-bundle-index:
+        module: mycompany/mycustombundle/view/index # Module defined in requirejs.yml
+
+    my-company-my-bundle-index-breadcrumbs:
+        module: pim/common/breadcrumbs
+        parent: my-company-my-bundle-index
+        targetZone: breadcrumbs
+        config:
+            tab: test-menu # Defined in menu.yml

@@ -1,0 +1,10 @@
+extensions:
+    test-menu:
+        module: pim/menu/tab
+        parent: pim-menu
+        targetZone: mainMenu
+        position: 110
+        config:
+            title: 'New View'
+            iconModifier: iconCard
+            to: new_view

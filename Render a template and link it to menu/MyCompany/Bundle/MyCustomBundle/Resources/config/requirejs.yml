@@ -1,0 +1,16 @@
+config:
+    paths:
+        # JS
+        mycompany/mycustombundle/view/index: mycompanymycustom/js/view/index
+
+        # JS CONTROLLER
+        mycompany/mycustombundle/controller/index: mycompanymycustom/js/controller/index
+
+        # HTML
+        mycompany/mycustombundle/template/intex: mycompanymycustom/template/index.html # Where is located the HTML file
+
+    config:
+        pim/controller-registry:
+            controllers: # Registering a new controller for this view
+                new_view: # Must be the same name that routing
+                    module: mycompany/mycustombundle/controller/index
