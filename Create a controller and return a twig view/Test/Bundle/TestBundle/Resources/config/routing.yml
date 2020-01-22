@@ -1,0 +1,4 @@
+route_with_php_controller:
+    path: /route_with_php_controller
+    defaults: { _controller: test.controller:testAction } # name the controller declared in controllers.yml
+    methods: [GET]

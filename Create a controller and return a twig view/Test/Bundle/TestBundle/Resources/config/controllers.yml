@@ -1,0 +1,7 @@
+services:
+  # Controller
+  test.controller:
+    class: 'Test\Bundle\TestBundle\Controllers\TestController'
+    # arguments: # if we need to pass arguments to the controller
+    #  - '@pim_internal_api_serializer'
+    #  - '@validator'
