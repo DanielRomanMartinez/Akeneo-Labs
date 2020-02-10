@@ -148,7 +148,7 @@ And finally the yml.file where we are going to set our view configuration. Has t
 # MyCompany/Bundle/MyCustomBundle/Resources/config/form_extensions/index.yml
 extensions:
     test-bundle-controller-with-js:
-        module: mycompany/mycustombundle/index # Module defined in requirejs.yml
+        module: mycompany/mycustombundle/view/index # Module defined in requirejs.yml
 
     test-bundle-controller-with-js-breadcrumbs:
         module: pim/common/breadcrumbs
